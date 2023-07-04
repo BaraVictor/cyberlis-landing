@@ -1,0 +1,79 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title-container {
+    background-image: url('../assets/DSC_0517.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+
+    .aboutus-title {
+    font-size: 6rem;
+    font-weight:bolder;
+    margin-bottom: 1rem;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.808);
+    }
+    
+    .quote {
+        font-size: 2rem;
+        text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.767);
+        /*background: linear-gradient(to right, rgb(1, 1, 185), rgb(255, 48, 48)); /* Add gradient background */
+        /*-webkit-background-clip: text; /* Clip text to the background */
+        /*-webkit-text-fill-color: transparent; /* Make the text transparent */ 
+        font-weight:lighter;
+      }
+  
+  h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .content {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .section {
+    flex: 1;
+    margin: 0 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-left: 50px;
+    padding-right: 50px;
+  }  
+
+  @media (max-width: 768px) {
+    .about-us {
+      flex-direction: column;
+    }
+  
+    .title-container {
+      background-image: auto;
+    }
+  }
