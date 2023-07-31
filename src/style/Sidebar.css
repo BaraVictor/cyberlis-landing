@@ -1,0 +1,27 @@
+.sidebar {
+    position: fixed;
+    top: 50%; /* To put it in the middle of the screen */
+    left: 1rem; /* 1 rem distance from the left side */
+    width: 80px; /* Make it 200px wide */
+    height: 400px; /* Make it 400px high */
+    transform: translateY(-50%); /* This is used to vertically center the sidebar */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,1);
+    z-index: 1000;
+    border-radius: 40px; /* Add this line to give the sidebar rounded corners */
+  }
+  
+  .sidebar img {
+    border-radius: 50%;
+    width: 60px;  /* You can adjust this */
+    height: 60px; /* You can adjust this */
+    object-fit: cover; /* Ensures the aspect ratio is maintained */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .sidebar img:hover {
+    transform: scale(1.2); /* This scales the image up to 120% its original size */
+  }

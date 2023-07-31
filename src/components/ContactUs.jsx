@@ -5,7 +5,7 @@ function ContactUs() {
   return (
     <section className="contact-us">
       <div className="contact-container">
-        <h2>Contact Us</h2>
+        <div className="contactus-container">Contact Us</div>
       </div>
       <div className="contact-details">
         <p>Email: contact@example.com</p>

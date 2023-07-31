@@ -1,0 +1,13 @@
+@keyframes sprinkle {
+    0% { color: rgb(0, 0, 0); }
+    25% { color: rgb(37, 0, 0); }
+    50% { color: rgb(0, 53, 9); }
+    75% { color: rgb(6, 0, 83); }
+    100% { color: rgb(0, 0, 0); }
+  }
+  
+  .sprinkle-text {
+    font-size: 16px;
+    animation: sprinkle 10s linear infinite;
+  }
+  

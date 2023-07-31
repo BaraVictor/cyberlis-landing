@@ -6,7 +6,8 @@ import Home from './components/Home.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import OurTeam from './components/OurTeam.jsx';
 import ContactUs from './components/ContactUs.jsx';
-import './app.css';
+import './App.css';
+import NewPage from './components/NewPage.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/new" element={<NewPage />} />
           <Route exact path="/aboutus" element={<AboutUs />} />
           <Route exact path="/ourteams" element={<OurTeam />} />
           <Route exact path="/contact" element={<ContactUs />} />

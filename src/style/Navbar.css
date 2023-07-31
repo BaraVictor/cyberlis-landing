@@ -59,6 +59,19 @@
   padding-right: 1rem;
   padding-left: 1rem;
 }
+
+@keyframes sprinkle {
+  0% { color: red; }
+  25% { color: orange; }
+  50% { color: yellow; }
+  75% { color: green; }
+  100% { color: blue; }
+}
+
+.sprinkle-text {
+  font-size: 2em;
+  animation: sprinkle 2s linear infinite;
+}
   
 .nav-links {
   display: flex;

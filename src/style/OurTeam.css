@@ -1,6 +1,12 @@
 .our-team {
     text-align: center;
   }
+
+  .bar {
+    height: 2px;
+    background-color: #6b6b6b; 
+    margin: 20px 0; 
+}
   
   .ourteam-title-container {
     background-image: url('../assets/DSC_0231.JPG');

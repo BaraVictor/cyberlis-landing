@@ -1,6 +1,7 @@
 import React from 'react';
 import '../style/Navbar.css';
 import logoImage from '../assets/logo.jpeg';
+import SprinkleText from './SprinkleText.jsx';
 
 const Navbar = () => {
   return (
@@ -13,6 +14,9 @@ const Navbar = () => {
       <ul className="nav-links">
         <li> 
           <a href="/">Acasă</a> 
+        </li>
+        <li> 
+          <a href="/new"><SprinkleText /></a> 
         </li>
         <li>
           <a href="/aboutus">Despre Noi</a>
