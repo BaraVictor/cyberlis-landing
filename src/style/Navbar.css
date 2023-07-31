@@ -59,6 +59,7 @@
   padding-right: 1rem;
   padding-left: 1rem;
 }
+<<<<<<< HEAD
 
 @keyframes sprinkle {
   0% { color: red; }
@@ -72,6 +73,8 @@
   font-size: 2em;
   animation: sprinkle 2s linear infinite;
 }
+=======
+>>>>>>> b35b2a34f3a61a96f5d75d56f124f98f750f7a2f
   
 .nav-links {
   display: flex;

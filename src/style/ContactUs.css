@@ -1,4 +1,5 @@
 .contact-us {
+<<<<<<< HEAD
   display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,6 +25,29 @@
   margin-bottom: 1rem;
   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.808);
   }
+=======
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.contact-container {
+background-image: url('../assets/DSC_0517.JPG');
+background-size: cover;
+background-position: center;
+height: 300px;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: #ffffff;
+}
+
+.title-container h2 {
+  font-size: 24px;
+  color: #ffffff;
+}
+>>>>>>> b35b2a34f3a61a96f5d75d56f124f98f750f7a2f
 
 .contact-details {
   font-size: 16px;

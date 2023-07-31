@@ -1,7 +1,10 @@
 import React from 'react';
 import '../style/Navbar.css';
 import logoImage from '../assets/logo.jpeg';
+<<<<<<< HEAD
 import SprinkleText from './SprinkleText.jsx';
+=======
+>>>>>>> b35b2a34f3a61a96f5d75d56f124f98f750f7a2f
 
 const Navbar = () => {
   return (
@@ -15,9 +18,12 @@ const Navbar = () => {
         <li> 
           <a href="/">Acasă</a> 
         </li>
+<<<<<<< HEAD
         <li> 
           <a href="/new"><SprinkleText /></a> 
         </li>
+=======
+>>>>>>> b35b2a34f3a61a96f5d75d56f124f98f750f7a2f
         <li>
           <a href="/aboutus">Despre Noi</a>
         </li>
