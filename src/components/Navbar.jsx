@@ -25,10 +25,10 @@ const Navbar = () => {
           <a href="/aboutus">Despre Noi</a>
         </li>
         <li>
-          <a href="/ourteams">Echipa</a>
+          <a href="/ourteams">Echipa Noastră</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="/contact">Contactează-ne</a>
         </li>
       </ul>
       <div className="menu-btn">

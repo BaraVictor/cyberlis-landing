@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidebar from './Sidebar.jsx';
+import Searchbar from './SearchBar.jsx';
 import '../style/OurTeam.css';
 import Image1 from '../assets/gavril po.jpeg';
 import Image2 from '../assets/bogdan pr.jpeg';
@@ -11,6 +12,7 @@ function OurTeam() {
   return (
     <div className="our-team-container"> 
       <Sidebar />
+      {/*<Searchbar />*/}
       <section className="our-team">
         <div className="ourteam-title-container">
           <div>Echipa Noastra</div>

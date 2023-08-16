@@ -1,27 +1,69 @@
 .sidebar {
-    position: fixed;
-    top: 50%; /* To put it in the middle of the screen */
-    left: 1rem; /* 1 rem distance from the left side */
-    width: 80px; /* Make it 200px wide */
-    height: 400px; /* Make it 400px high */
-    transform: translateY(-50%); /* This is used to vertically center the sidebar */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgba(0,0,0,0.8);
-    z-index: 1000;
-    border-radius: 40px; /* Add this line to give the sidebar rounded corners */
-  }
-  
-  .sidebar img {
-    border-radius: 50%;
-    width: 60px;  /* You can adjust this */
-    height: 60px; /* You can adjust this */
-    object-fit: cover; /* Ensures the aspect ratio is maintained */
-    transition: transform 0.5s ease-in-out;
-  }
+  position: fixed;
+  top: 50%;
+  left: 1rem;
+  width: 80px;  /* By default, only wide enough for icons */
+  height: 400px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: row; /* Added this to organize the images and text in two columns */
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  border-radius: 20px;
+  overflow: hidden; /* To ensure that texts don't overflow when they're hidden */
+  transition: width 0.5s ease-in-out; /* Smooth transition for width */
+}
 
-  .sidebar img:hover {
-    transform: scale(1.2); /* This scales the image up to 120% its original size */
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: rgba(255,255,255,0.7); /* Adjust color as per your preference */
+}
+
+.image-column,
+.text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px 10px; /* Reduced padding to bring text closer to images */
+}
+
+.sidebar img {
+  border-radius: 30%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out, opacity 0.4s ease-in-out; /* Added transition for opacity */
+}
+
+.sidebar img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  opacity: 0.7; /* Makes the image slightly transparent on hover */
+}
+
+.text-column p {
+  color: white;
+  opacity: 0;  /* Make texts invisible */
+  visibility: hidden; /* And take them out of the flow */
+  transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out; /* Smooth transition for opacity and visibility */
+  align-self: center; /* Vertically center the text relative to the image */
+  padding: 15px;
+}
+
+.sidebar:hover {
+  width: 300px; /* Expand the sidebar on hover */
+}
+
+.sidebar:hover .text-column p {
+  opacity: 1;
+  visibility: visible; /* Show the texts when sidebar is hovered */
+}
