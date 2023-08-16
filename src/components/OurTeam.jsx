@@ -13,7 +13,7 @@ function OurTeam() {
       <Sidebar />
       <section className="our-team">
         <div className="ourteam-title-container">
-          <div>Echipa Noastră</div>
+          <div>Echipa Noastra</div>
         </div>
         <div>
         <div id="mentors" className="section-title">Mentori</div>
