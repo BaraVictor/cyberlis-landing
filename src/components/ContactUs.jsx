@@ -8,8 +8,11 @@ function ContactUs() {
         <div className="contactus-container">Contact Us</div>
       </div>
       <div className="contact-details">
-        <p>Email: contact@example.com</p>
-        <p>Phone: +1 123 456 7890</p>
+        <br></br>
+        <p>Email: cyberlis.robo@gmail.com</p>
+        <p>Phone: 0237 275 373</p>
+        <p>Locatie: Liceul Teoreti "Ioan Slavici", Panciu</p>
+        
       </div>
     </section>
   );
