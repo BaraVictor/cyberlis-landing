@@ -25,7 +25,7 @@ const Navbar = () => {
           <a href="/aboutus">Despre Noi</a>
         </li>
         <li>
-          <a href="/ourteams">Echipa Noastră</a>
+          <a href="/ourteams">Echipa</a>
         </li>
         <li>
           <a href="/contact">Contactează-ne</a>

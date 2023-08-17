@@ -7,7 +7,25 @@ import Image2 from '../assets/bogdan pr.jpeg';
 import Image3 from '../assets/Valentina Calin.jpeg';
 import Image4 from '../assets/Apreustesei Maricica.jpeg';
 import Image5 from '../assets/Caterina Stoian.jpeg';
-
+import Image6 from '../assets/anca.jpeg'
+import Image7 from '../assets/matei.JPG'
+import Image8 from '../assets/teo.JPG'
+import Image9 from '../assets/tudor.JPG'
+import Image10 from '../assets/calita.JPG'
+import Image11 from '../assets/andreea.JPG'
+import Image12 from '../assets/lider com.jpeg'
+import Image13 from '../assets/mali.JPG'
+import Image14 from '../assets/carina.JPG'
+import Image15 from '../assets/marco.JPG'
+import Image16 from '../assets/vic.JPG'
+import Image17 from '../assets/maria.JPG'
+import Image18 from '../assets/smara.JPG'
+import Image19 from '../assets/david.JPG'
+import Image20 from '../assets/lider p3d.JPG'
+import Image21 from '../assets/gabriela.JPG'
+import Image22 from '../assets/george.JPG'
+import Image23 from '../assets/irina.JPG'
+import Image24 from '../assets/emi.JPG'
 function OurTeam() {
   return (
     <div className="our-team-container"> 
@@ -73,18 +91,16 @@ function OurTeam() {
         </div>
         <div className="team-members">
           <div className="member">
-            <img src={Image5} alt="Team Member 1" />
+            <img src={Image7} alt="Team Member 1" />
             <div className="description">
-              <h3>Gavril Daniela</h3>
-              <h5>MENTOR COORDONATOR</h5>
+              <h3>Popa Matei</h3>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image2} alt="Team Member 2" />
+            <img src={Image8} alt="Team Member 2" />
             <div className="description">
-              <h3>Grigoras Vladut-Bogdan</h3>
-              <h5>MENTOR</h5>
+              <h3>Piciorlung Teodor-Octavian</h3>
               <p>Descriere</p>
             </div>
           </div>
@@ -94,26 +110,23 @@ function OurTeam() {
         </div>
         <div className="team-members">
           <div className="member">
-            <img src={Image3} alt="Team Member 1" />
+            <img src={Image9} alt="Team Member 1" />
             <div className="description">
-              <h3>Calin Valentina</h3>
-              <h5>Rol</h5>
+              <h3>Postolache Tudor</h3>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image4} alt="Team Member 2" />
+            <img src={Image10} alt="Team Member 2" />
             <div className="description">
-              <h3>Apreutesei Maricica</h3>
-              <h5>Șefa</h5>
+              <h3>Calita Grabiel</h3>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image5} alt="Team Member 1" />
+            <img src={Image11} alt="Team Member 1" />
             <div className="description">
-              <h3>Stoian Caterina</h3>
-              <h5>Rol</h5>
+              <h3>Tirdea Andreea</h3>
               <p>Descriere</p>
             </div>
           </div>
@@ -124,18 +137,17 @@ function OurTeam() {
         </div>
         <div className="team-members">
           <div className="member">
-            <img src={Image1} alt="Team Member 1" />
+            <img src={Image6} alt="Team Member 1" />
             <div className="description">
-              <h3>Gavril Daniela</h3>
-              <h5>MENTOR COORDONATOR</h5>
+              <h3>Chipe Anca</h3>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image2} alt="Team Member 2" />
+            <img src={Image12} alt="Team Member 2" />
             <div className="description">
-              <h3>Grigoras Vladut-Bogdan</h3>
-              <h5>MENTOR</h5>
+              <h3>Holban-Ichim Maria-Veronica</h3>
+              <h5>SEFA</h5>
               <p>Descriere</p>
             </div>
           </div>
@@ -145,26 +157,17 @@ function OurTeam() {
         </div>
         <div className="team-members">
           <div className="member">
-            <img src={Image3} alt="Team Member 1" />
+            <img src={Image13} alt="Team Member 1" />
             <div className="description">
-              <h3>Calin Valentina</h3>
+              <h3>Vasile Elena-Malina</h3>
               <h5>Rol</h5>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image4} alt="Team Member 2" />
+            <img src={Image14} alt="Team Member 2" />
             <div className="description">
-              <h3>Apreutesei Maricica</h3>
-              <h5>Șefa</h5>
-              <p>Descriere</p>
-            </div>
-          </div>
-          <div className="member">
-            <img src={Image5} alt="Team Member 1" />
-            <div className="description">
-              <h3>Stoian Caterina</h3>
-              <h5>Rol</h5>
+              <h3>Plosnita Carina</h3>
               <p>Descriere</p>
             </div>
           </div>
@@ -175,18 +178,17 @@ function OurTeam() {
         </div>
         <div className="team-members">
           <div className="member">
-            <img src={Image1} alt="Team Member 1" />
+            <img src={Image15} alt="Team Member 1" />
             <div className="description">
-              <h3>Gavril Daniela</h3>
-              <h5>MENTOR COORDONATOR</h5>
+              <h3>Mihalcea Marco-Sebastian</h3>
+              <h5>SEF</h5>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image2} alt="Team Member 2" />
+            <img src={Image16} alt="Team Member 2" />
             <div className="description">
-              <h3>Grigoras Vladut-Bogdan</h3>
-              <h5>MENTOR</h5>
+              <h3>Bara Victor</h3>
               <p>Descriere</p>
             </div>
           </div>
@@ -196,26 +198,23 @@ function OurTeam() {
         </div>
         <div className="team-members">
           <div className="member">
-            <img src={Image3} alt="Team Member 1" />
+            <img src={Image17} alt="Team Member 1" />
             <div className="description">
-              <h3>Calin Valentina</h3>
-              <h5>Rol</h5>
+              <h3>Tirdea Maria</h3>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image4} alt="Team Member 2" />
+            <img src={Image18} alt="Team Member 2" />
             <div className="description">
-              <h3>Apreutesei Maricica</h3>
-              <h5>Șefa</h5>
+              <h3>Luca Smaranda</h3>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image5} alt="Team Member 1" />
+            <img src={Image19} alt="Team Member 1" />
             <div className="description">
-              <h3>Stoian Caterina</h3>
-              <h5>Rol</h5>
+              <h3>Murgociu David</h3>
               <p>Descriere</p>
             </div>
           </div>
@@ -226,18 +225,17 @@ function OurTeam() {
         </div>
         <div className="team-members">
           <div className="member">
-            <img src={Image1} alt="Team Member 1" />
+            <img src={Image20} alt="Team Member 1" />
             <div className="description">
-              <h3>Gavril Daniela</h3>
-              <h5>MENTOR COORDONATOR</h5>
+              <h3>Palade Mihai</h3>
+              <h5>SEF</h5>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image2} alt="Team Member 2" />
+            <img src={Image21} alt="Team Member 2" />
             <div className="description">
-              <h3>Grigoras Vladut-Bogdan</h3>
-              <h5>MENTOR</h5>
+              <h3>Andrei Garbriela</h3>
               <p>Descriere</p>
             </div>
           </div>
@@ -247,26 +245,23 @@ function OurTeam() {
         </div>
         <div className="team-members">
           <div className="member">
-            <img src={Image3} alt="Team Member 1" />
+            <img src={Image22} alt="Team Member 1" />
             <div className="description">
-              <h3>Calin Valentina</h3>
-              <h5>Rol</h5>
+              <h3>Cojocaru George</h3>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image4} alt="Team Member 2" />
+            <img src={Image23} alt="Team Member 2" />
             <div className="description">
-              <h3>Apreutesei Maricica</h3>
-              <h5>Șefa</h5>
+              <h3>Tirlea Irina</h3>
               <p>Descriere</p>
             </div>
           </div>
           <div className="member">
-            <img src={Image5} alt="Team Member 1" />
+            <img src={Image24} alt="Team Member 1" />
             <div className="description">
-              <h3>Stoian Caterina</h3>
-              <h5>Rol</h5>
+              <h3>Nechita Emanuel</h3>
               <p>Descriere</p>
             </div>
           </div>
