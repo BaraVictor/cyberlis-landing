@@ -1,0 +1,35 @@
+.contact-us {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container {
+  background-image: url('../assets/DSC_0517.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.contactus-container {
+  font-size: 6rem;
+  font-weight:bolder;
+  margin-bottom: 1rem;
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.808);
+  }
+
+.contact-details {
+  font-size: 16px;
+  color: #666;
+}
+
+.contact-details p {
+  margin: 8px 0;
+}

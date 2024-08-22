@@ -1,0 +1,18 @@
+@keyframes sprinkle {
+    0% { color: rgb(255, 255, 255); }
+    25% { color: rgb(128, 128, 128); }
+    50% { color: rgb(0, 0, 0); }
+    75% { color: rgb(128, 128, 128); }
+    100% { color: rgb(255, 255, 255); }
+  }
+  
+  .sprinkle-text {
+    font-size: 16px;
+    animation: sprinkle 15s ease-in-out infinite;
+    font-weight: bolder;
+    position: middle center;
+    z-index: 2;
+    background: rgb(205,133,63);
+    padding: 0px 10px;
+    border-radius: 8px;
+  }
